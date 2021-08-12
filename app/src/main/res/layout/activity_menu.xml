@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Menu">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageButton
+        android:id="@+id/imageButtonM"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="33dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:background="@color/white"
+        app:srcCompat="@drawable/ic_calculator"
+        tools:ignore="VectorDrawableCompat" />
+
+    <ImageButton
+        android:id="@+id/imageButtonM2"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentRight="false"
+        android:layout_marginStart="33dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_toEndOf="@+id/imageButtonM"
+        android:layout_toRightOf="@id/imageButtonM"
+        android:background="@color/white"
+        app:srcCompat="@drawable/ic_torch"
+        tools:ignore="VectorDrawableCompat" />
+
+    <ImageButton
+        android:id="@+id/imageButtonM3"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="33dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_toEndOf="@+id/imageButtonM2"
+        android:layout_toRightOf="@+id/imageButtonM2"
+        android:background="@color/white"
+        app:srcCompat="@drawable/ic_bluetooth"
+        tools:ignore="VectorDrawableCompat" />
+
+    <ImageButton
+        android:id="@+id/imageButtonM4"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/imageButtonM"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="274dp"
+        android:background="@color/white"
+        app:srcCompat="@drawable/ic_camera" />
+
+    <ImageButton
+        android:id="@+id/imageButtonM5"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/imageButtonM2"
+        android:layout_alignParentTop="false"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="50dp"
+        android:layout_toEndOf="@+id/imageButtonM4"
+        android:background="@color/white"
+        app:srcCompat="@drawable/ic_music" />
+
+    <ImageButton
+        android:id="@+id/imageButtonM6"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/imageButtonM3"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="50dp"
+        android:layout_toEndOf="@+id/imageButtonM5"
+        android:background="@color/white"
+        app:srcCompat="@drawable/ic_vibrator" />
+
+    <ImageButton
+        android:id="@+id/imageButtonM7"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/imageButtonM4"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="false"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="50dp"
+        android:background="@color/white"
+        app:srcCompat="@drawable/ic_browser" />
+
+    <ImageButton
+        android:id="@+id/imageButtonM8"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/imageButtonM5"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="50dp"
+        android:layout_toEndOf="@+id/imageButtonM7"
+        android:background="@color/white"
+        android:textAlignment="gravity"
+        app:srcCompat="@drawable/ic_vedioplayer" />
+
+    <ImageButton
+        android:id="@+id/imageButtonM9"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/imageButtonM6"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="50dp"
+        android:layout_toEndOf="@+id/imageButtonM8"
+        android:background="@color/white"
+        app:srcCompat="@drawable/ic_wifi" />
+
+    <ImageButton
+        android:id="@+id/imageButtonM10"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/imageButtonM7"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="false"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="50dp"
+        android:background="@color/white"
+        app:srcCompat="@drawable/ic_vedio" />
+
+    <ImageButton
+        android:id="@+id/imageButtonM11"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/imageButtonM8"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="50dp"
+        android:layout_toEndOf="@+id/imageButtonM10"
+        android:background="@color/white"
+        app:srcCompat="@drawable/ic_call" />
+
+    <ImageButton
+        android:id="@+id/imageButtonM12"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/imageButtonM9"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="50dp"
+        android:layout_toEndOf="@+id/imageButtonM11"
+        android:background="@color/white"
+        app:srcCompat="@drawable/ic_message" />
+
+    <ImageButton
+        android:id="@+id/imageButtonM13"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/imageButtonM10"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentRight="false"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="50dp"
+        android:background="@color/white"
+        app:srcCompat="@drawable/ic_feedback" />
+
+    <Button
+        android:id="@+id/buttonLogout"
+        android:layout_width="194dp"
+        android:layout_height="78dp"
+        android:layout_below="@+id/imageButtonM11"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="50dp"
+        android:layout_toEndOf="@+id/imageButtonM13"
+        android:text="Logout" />
+
+    </RelativeLayout>
+</ScrollView>

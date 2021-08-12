@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "371199397543",
+    "firebase_url": "https://project-71128-default-rtdb.firebaseio.com",
+    "project_id": "project-71128",
+    "storage_bucket": "project-71128.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:371199397543:android:7b43bfebc0d42f06959582",
+        "android_client_info": {
+          "package_name": "com.example.netcampproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "371199397543-v7rvlnvt2qkirlgo72geo24j3im1tnij.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.netcampproject",
+            "certificate_hash": "83245ac81e40f7a19154cde767a8ad1c23ef6ffb"
+          }
+        },
+        {
+          "client_id": "371199397543-mc8k4en2h6hogml39869uhqfumqkc2jk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCg57smJwoU9cJJt4Ejy7zNvKzNkddY8Nk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "371199397543-mc8k4en2h6hogml39869uhqfumqkc2jk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
