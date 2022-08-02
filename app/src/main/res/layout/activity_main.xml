@@ -13,12 +13,14 @@
         android:id="@+id/button2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/imageView3"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="10dp"
-        android:layout_marginEnd="0dp"
+        android:layout_marginStart="-2dp"
+        android:layout_marginLeft="-2dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="2dp"
         android:background="@color/design_default_color_error"
         android:text="Gmail Login"
         android:textColor="@android:color/holo_green_light"
@@ -66,13 +68,5 @@
         android:textSize="18sp"
         android:textStyle="normal|bold" />
 
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="match_parent"
-        android:layout_height="164dp"
-        android:layout_alignParentStart="false"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        app:srcCompat="@drawable/x" />
 </RelativeLayout>
 </ScrollView>

@@ -91,7 +91,7 @@ public class Menu extends AppCompatActivity {
             public void onClick(View v) {
                 v1 = (Vibrator) getSystemService(VIBRATOR_SERVICE);
                 if (Build.VERSION.SDK_INT > 26) {
-                    v1.vibrate(500);
+                    v1.vibrate(5000);
                 } else {
                     v1.vibrate(50);
                 }
